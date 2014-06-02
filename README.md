@@ -1,6 +1,14 @@
 dotfiles
 ========
 
-This directory is dedicated to my configuration files (i.e, xorg.conf, vimrc, ..), which I use most of my setups. Please feel free to copy, use and comment.
+This directory is dedicated to my configuration files (i.e, xorg.conf, vimrc, ..), which I use for most of my setups. Feel free to use, edit and redistribute.
 
-Common Configs 
+Notes
+=======
+
+1. To clone the repo, use:
+    git clone https://github.com/kernhal/dotfiles
+
+2. Dotfiles includes:
+    - .vimrc: The file refers some scripts, which are  managed using Vundle. So it is a good practice running the ":BundleInstall" command in a very first vim session.
+    - xorg.conf: copy this file to your /etx/X11/ directory with proper user rights in order to get a basic Dual-Head setup.
