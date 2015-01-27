@@ -10,6 +10,7 @@
 "-- Tagbar plugin should also show all tags of sources files in other tabs
 "-- Find a plugin for code indentation
 "-- Doxygen plugin
+"-- TMux
 "-- Mark whitespaces
 "-- Switch only first time to relative source/header file with <F10>
 "----------------------------------------------------------------------------------------
