@@ -70,13 +70,8 @@ set nocompatible
     " Fuzzy finder (files, mru, etc)
     Bundle 'kien/ctrlp.vim'
 
-    " A much better statusline----------------------> replace it with
-    " vim-air-line
-     "Bundle 'Lokaltog/vim-powerline'
-
-    " Lean & mean statusline for vim that's light as air(an alternative for
-    " vim-powerline)
-    Bundle 'bling/vim-airline'
+    "A light and configurable statusline/tabline for Vim 
+    Bundle 'itchyny/lightline.vim'
 
     " Easy... motions... yeah.
     Bundle 'Lokaltog/vim-easymotion'
@@ -151,19 +146,24 @@ set nocompatible
         highlight nonText ctermbg=NONE              " use terminal background
         au BufRead,BufNewFile *.txt set ft=sh       " opens .txt w/highlight
     """ }}}
+
     """ Tab colors {{{
         hi TabLineFill ctermfg=NONE ctermbg=233
         hi TabLine ctermfg=241 ctermbg=233
         hi TabLineSel ctermfg=250 ctermbg=233
     """ }}}
+
     """ Color theme settings {{{
         let g:default_background_type = "dark"
         let g:dark_colorscheme = "solarized"
         let g:light_colorscheme = "solarized"
         let g:solarized_termcolors=256
         let g:solarized_contrast="high"
-        let g:airline_theme='solarized'
         """ }}}
+
+    """ Statusline settings {{{
+        """}}}
+
     """ Interface general {{{
         set cursorline                              " hilight cursor line
         set more                                    " ---more--- like less
@@ -190,32 +190,11 @@ set nocompatible
             set guioptions-=T                       " remove toolbar
             set guioptions-=r                       " remove right scrollbar
         """ }}}
-        """ Numbers {{{
-        """ Do not forget comment the relatedline in /bundle/numbers.vim
-            "let g:mode = 1
-        """ }}}
-        """ Powerline {{{
-            let g:Powerline_symbols = 'compatible'  " see :h Powerline_symbols
-            let g:Powerline_symbols_override = {
-                        \ 'BRANCH': [0x2213],
-                        \ }                         " use ∓
-            """ Powerline mode names {{{
-                let g:Powerline_mode_n  = ' N '
-                let g:Powerline_mode_i  = ' I '
-                let g:Powerline_mode_R  = ' R '
-                let g:Powerline_mode_v  = ' V '
-                let g:Powerline_mode_V  = 'V·L'
-                let g:Powerline_mode_cv = 'V·B'
-                let g:Powerline_mode_s  = ' S '
-                let g:Powerline_mode_S  = 'S·L'
-                let g:Powerline_mode_cs = 'S·B'
-            """ }}}
-        """ }}}
     """ }}}
 """ }}}
 """ General settings {{{
     set hidden                                      " buffer change, more undo
-    set history=1000                                " default 20
+    set history=256                                " default 20
     set iskeyword+=_,$,@,%,#                        " not word dividers
     set laststatus=2                                " always show statusline
     set linebreak                                   " don't cut words on wrap
