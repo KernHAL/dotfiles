@@ -4,15 +4,6 @@
 " Date:         27.01.2015                     "
 " Version:      0.4                            "
 "----------------------------------------------"
-"
-"The following is a TODO list for my .vimrc
-"----------------------------------------------------------------------------------------
-"-- Tagbar plugin should also show all tags of sources files in other tabs
-"-- Find a plugin for code indentation
-"-- Doxygen plugin
-"-- Mark whitespaces
-"-- Switch only first time to relative source/header file with <F10>
-"----------------------------------------------------------------------------------------
 " vimrc based mainly on https://github.com/timss/vimconf
 " vimconf is not vi-compatible
 set nocompatible
