@@ -61,8 +61,8 @@ set nocompatible
     " Switch between relative and absolute numbering
     Bundle 'myusuf3/numbers.vim'
 
-    " Edit files using sudo/su
-    Bundle 'chrisbra/SudoEdit.vim'
+    " Edit files using sudo/su ---------------------> is this necessary
+    " Bundle 'chrisbra/SudoEdit.vim'
 
     " <Tab> everything!
     Bundle 'ervandew/supertab'
@@ -70,27 +70,22 @@ set nocompatible
     " Fuzzy finder (files, mru, etc)
     Bundle 'kien/ctrlp.vim'
 
-    " A much better statusline
-     Bundle 'Lokaltog/vim-powerline'
+    " A much better statusline----------------------> replace it with
+    " vim-air-line
+     "Bundle 'Lokaltog/vim-powerline'
 
     " Lean & mean statusline for vim that's light as air(an alternative for
     " vim-powerline)
-    "Bundle 'bling/vim-airline'
+    Bundle 'bling/vim-airline'
 
     " Easy... motions... yeah.
     Bundle 'Lokaltog/vim-easymotion'
-
-    " Glorious colorscheme
-    Bundle 'nanotech/jellybeans.vim'
 
     " Super easy commenting, toggle comments etc
     Bundle 'scrooloose/nerdcommenter'
 
     " A file tree explorer
     Bundle 'scrooloose/nerdtree'
-
-    " Color text based on RGB, hex, colornames
-    Bundle 'ap/vim-css-color'
 
     " Autoclose (, " etc
     Bundle 'Townk/vim-autoclose'
@@ -121,10 +116,6 @@ set nocompatible
     " Functions, class data etc.
     " REQUIREMENTS: ctags
     Bundle 'majutsushi/tagbar'
-
-    " http://pastie.org
-    " REQUIREMENTS: ruby in $PATH (not vim compiled with +ruby)
-    "Bundle 'simmel/vim-pastie'
 
     " C/C++ autocomplete
     " REUIREMENTS: clang compiler
@@ -171,6 +162,7 @@ set nocompatible
         let g:light_colorscheme = "solarized"
         let g:solarized_termcolors=256
         let g:solarized_contrast="high"
+        let g:airline_theme='solarized'
         """ }}}
     """ Interface general {{{
         set cursorline                              " hilight cursor line
