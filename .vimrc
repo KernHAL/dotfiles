@@ -1,8 +1,8 @@
 "----------------------------------------------"
 " Author:       ibrahim eser<ieser@rtuk.org.tr>"
 " Source:                                      "
-" Date:         04.07.13                       "
-" Version:      0.3                            "
+" Date:         27.01.15                       "
+" Version:      0.4                            "
 "----------------------------------------------"
 "
 "The following is a TODO list for my .vimrc
