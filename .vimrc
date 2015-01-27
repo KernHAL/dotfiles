@@ -1,13 +1,16 @@
 "----------------------------------------------"
 " Author:       ibrahim eser<ieser@rtuk.org.tr>"
-" Source:       .vimrc                               "
-" Date:         27.01.15                       "
-" Version:      0.4                            "
+" Source:                                      "
+" Date:         04.07.13                       "
+" Version:      0.3                            "
 "----------------------------------------------"
 "
 "The following is a TODO list for my .vimrc
 "----------------------------------------------------------------------------------------
+"-- Remove unused plugins i.e jellybeans,...
 "-- Tagbar plugin should also show all tags of sources files in other tabs
+"-- Add plugin to support TODO, FIXME etc. tags //I guess there is a plugin called taglist
+"-- Find a plugin for code indentation
 "-- Mark whitespaces
 "-- Switch only first time to relative source/header file with <F11>
 "----------------------------------------------------------------------------------------
@@ -313,11 +316,11 @@ set nocompatible
         """ nnoremap <F4> :NumbersOnOff<CR>
         """ }}}
         """ Toggle syntax highlighting {{{
-            map <silent><F7> :if exists("syntax_on")
+            map <silent><F4> :if exists("syntax_on")
                 \<Bar>syntax off<Bar>else<Bar>syntax enable<Bar>endif<CR>
         """ }}}
         """ Toggle background color-using vim-colortogggle plugin
-            map <silent><F4> :ToggleBg<CR>
+            map <silent><F7> :ToggleBg<CR>
         """ Highlight characters past 79, toggle with <leader>h {{{
             nnoremap <leader>h :call ToggleOverLengthHighlight()<CR>
             let g:overlength_enabled = 0
@@ -343,7 +346,7 @@ set nocompatible
         """ }}}
         """ Split to relative header/source {{{
             "nnoremap <leader>le :call SplitRelSrc()<CR>
-            nnoremap <F11> :call SplitRelSrc()<CR>
+            nnoremap <F10> :call SplitRelSrc()<CR>
 
             function! SplitRelSrc()
                 let s:fname = expand("%:t:r")
@@ -374,11 +377,11 @@ set nocompatible
         map <F2> :NERDTreeToggle<CR>
 
         " Toggle pastemode, doesn't indent
-        set pastetoggle=<F3>
+        set pastetoggle=<F8>
 
         " SingleCompile
-        nmap <F5> :SCCompile<CR>
-        nmap <F6> :SCCompileRun<CR>
+        " nmap <F5> :SCCompile<CR>
+        " nmap <F6> :SCCompileRun<CR>
 
         " Toggle tagbar (definitions, functions etc.)
         map <F12> :TagbarToggle<CR>
@@ -410,12 +413,12 @@ set nocompatible
     let g:pastie_private = 1
 
     " SingleCompile - check if installed since this gives warnings if not
-    autocmd VimEnter * if exists('g:loaded_SingleCompile')
-        call SingleCompile#SetCompilerTemplate('cpp', 'gcc', 'GNU C Compiler',
-            \'g++', '-Wall -Wextra -pedantic -O3 -std=c++0x -o $(FILE_TITLE)$',
-            \'./$(FILE_TITLE)$')
-        call SingleCompile#SetOutfile('cpp', 'gcc', '$(FILE_TITLE)$')
-        call SingleCompile#ChooseCompiler('cpp', 'gcc')
+    "autocmd VimEnter * if exists('g:loaded_SingleCompile')
+    "call SingleCompile#SetCompilerTemplate('cpp', 'gcc', 'GNU C Compiler',
+    "\'g++', '-Wall -Wextra -pedantic -O3 -std=c++0x -o $(FILE_TITLE)$',
+    "        \'./$(FILE_TITLE)$')
+    "    call SingleCompile#SetOutfile('cpp', 'gcc', '$(FILE_TITLE)$')
+    "    call SingleCompile#ChooseCompiler('cpp', 'gcc')
 
     " Syntastic - This is largely up to your own usage, and override these
     "             changes if be needed. This is merely an exemplification.
