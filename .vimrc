@@ -396,9 +396,6 @@ set nocompatible
     "let g:tagbar_width = 30
     set tags=tags;/
 
-    " Pastie - private (simmel's fork of tpope's vim-pastie with help from garno)
-    let g:pastie_private = 1
-
     " Syntastic - This is largely up to your own usage, and override these
     "             changes if be needed. This is merely an exemplification.
     let g:syntastic_cpp_check_header = 1
