@@ -1,18 +1,17 @@
 "----------------------------------------------"
 " Author:       ibrahim eser<ieser@rtuk.org.tr>"
-" Source:                                      "
-" Date:         04.07.13                       "
-" Version:      0.3                            "
+" Source:       .vimrc                         "
+" Date:         27.01.2015                     "
+" Version:      0.4                            "
 "----------------------------------------------"
 "
 "The following is a TODO list for my .vimrc
 "----------------------------------------------------------------------------------------
-"-- Remove unused plugins i.e jellybeans,...
 "-- Tagbar plugin should also show all tags of sources files in other tabs
-"-- Add plugin to support TODO, FIXME etc. tags //I guess there is a plugin called taglist
 "-- Find a plugin for code indentation
+"-- Doxygen plugin
 "-- Mark whitespaces
-"-- Switch only first time to relative source/header file with <F11>
+"-- Switch only first time to relative source/header file with <F10>
 "----------------------------------------------------------------------------------------
 " vimrc based mainly on https://github.com/timss/vimconf
 " vimconf is not vi-compatible
@@ -377,7 +376,7 @@ set nocompatible
         map <F2> :NERDTreeToggle<CR>
 
         " Toggle pastemode, doesn't indent
-        set pastetoggle=<F8>
+        set pastetoggle=<F9>
 
         " SingleCompile
         " nmap <F5> :SCCompile<CR>
