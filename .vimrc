@@ -378,10 +378,6 @@ set nocompatible
         " Toggle pastemode, doesn't indent
         set pastetoggle=<F9>
 
-        " SingleCompile
-        " nmap <F5> :SCCompile<CR>
-        " nmap <F6> :SCCompileRun<CR>
-
         " Toggle tagbar (definitions, functions etc.)
         map <F12> :TagbarToggle<CR>
 
@@ -390,9 +386,10 @@ set nocompatible
         noremap <silent><leader>lc :lcl<CR>
     """ }}}
 """ }}}
+
 """ Misc plugin settings {{{
     " clang_complete - C++11
-    "let g:clang_user_options="-std=c++0x"
+    " let g:clang_user_options="-std=c++0x"
 
     " CtrlP - don't recalculate files on start (slow)
     let g:ctrlp_clear_cache_on_exit = 0
@@ -410,14 +407,6 @@ set nocompatible
 
     " Pastie - private (simmel's fork of tpope's vim-pastie with help from garno)
     let g:pastie_private = 1
-
-    " SingleCompile - check if installed since this gives warnings if not
-    "autocmd VimEnter * if exists('g:loaded_SingleCompile')
-    "call SingleCompile#SetCompilerTemplate('cpp', 'gcc', 'GNU C Compiler',
-    "\'g++', '-Wall -Wextra -pedantic -O3 -std=c++0x -o $(FILE_TITLE)$',
-    "        \'./$(FILE_TITLE)$')
-    "    call SingleCompile#SetOutfile('cpp', 'gcc', '$(FILE_TITLE)$')
-    "    call SingleCompile#ChooseCompiler('cpp', 'gcc')
 
     " Syntastic - This is largely up to your own usage, and override these
     "             changes if be needed. This is merely an exemplification.
