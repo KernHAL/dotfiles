@@ -15,9 +15,9 @@ Notes
 
 ToDo
 ======
-1. Tagbar plugin should also show all tags of sources files in other tabs
-2. Find a plugin for code indentation
-3. Doxygen plugin
-4.  TMux
-5. Mark whitespaces
-6. Switch only first time to relative source/header file with <F10>
+1. vimrc: Tagbar plugin should also show all tags of sources files in other tabs
+2. vimrc: Find a plugin for code indentation
+3. vimrc: Doxygen plugin
+4. vimrc: TMux plugin
+5. vimrc: Mark whitespaces
+6. vimrc: Switch only first time to relative source/header file with <F10>
