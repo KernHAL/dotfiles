@@ -5,6 +5,14 @@
 " Version:      0.4                            "
 "----------------------------------------------"
 "
+"The following is a TODO list for my .vimrc
+"----------------------------------------------------------------------------------------
+"-- Tagbar plugin should also show all tags of sources files in other tabs
+"-- Find a plugin for code indentation
+"-- Doxygen plugin
+"-- Mark whitespaces
+"-- Switch only first time to relative source/header file with <F10>
+"----------------------------------------------------------------------------------------
 " vimrc based mainly on https://github.com/timss/vimconf
 " vimconf is not vi-compatible
 set nocompatible
@@ -367,7 +375,7 @@ set nocompatible
         " Toggle the NERDTree file browser
         map <F2> :NERDTreeToggle<CR>
 
-        " Toggle pastemode, doesn't indent
+        " Toggle pastemode, texts from other sources do not indent
         set pastetoggle=<F9>
 
         " Toggle tagbar (definitions, functions etc.)
