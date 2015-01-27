@@ -1,16 +1,13 @@
 "----------------------------------------------"
 " Author:       ibrahim eser<ieser@rtuk.org.tr>"
-" Source:                                      "
+" Source:       .vimrc                               "
 " Date:         27.01.15                       "
 " Version:      0.4                            "
 "----------------------------------------------"
 "
 "The following is a TODO list for my .vimrc
 "----------------------------------------------------------------------------------------
-"-- Remove unused plugins i.e jellybeans,...
 "-- Tagbar plugin should also show all tags of sources files in other tabs
-"-- Add plugin to support TODO, FIXME etc. tags //I guess there is a plugin called taglist
-"-- Find a plugin for code indentation
 "-- Mark whitespaces
 "-- Switch only first time to relative source/header file with <F11>
 "----------------------------------------------------------------------------------------
