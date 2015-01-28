@@ -1,10 +1,9 @@
 "----------------------------------------------"
 " Author:       ibrahim eser<ieser@rtuk.org.tr>"
-" Source:       .vimrc                         "
+" Source:       vimrc                          "
 " Date:         27.01.2015                     "
 " Version:      0.4                            "
 "----------------------------------------------"
-" vimrc based mainly on https://github.com/timss/vimconf
 " vimconf is not vi-compatible
 set nocompatible
 
