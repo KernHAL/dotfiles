@@ -4,6 +4,7 @@
 " Date:         27.01.2015                     "
 " Version:      0.4                            "
 "----------------------------------------------"
+"
 " vimconf is not vi-compatible
 set nocompatible
 
@@ -35,7 +36,7 @@ set nocompatible
     " Recursive vundle, omg!
     Bundle 'gmarik/vundle'
 
-    """ Local bundles (and only bundles in this file!) {{{{
+    """ Local bundles (and only bundles in this file!) {{{
         if filereadable($HOME."/.vimrc.bundles")
             source $HOME/.vimrc.bundles
         endif
