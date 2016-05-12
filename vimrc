@@ -370,7 +370,7 @@ set nocompatible
         set pastetoggle=<F9>
 
         " Toggle tagbar (definitions, functions etc.)
-        map <F12> :TagbarToggle<CR>
+        map <F8> :TagbarToggle<CR>
 
         " Syntastic - toggle error list. Probably should be toggleable.
         noremap <silent><leader>lo :Errors<CR>
