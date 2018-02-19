@@ -26,3 +26,4 @@ ToDo
 4. vimrc: TMux plugin
 5. vimrc: Mark whitespaces
 6. vimrc: Switch only first time to relative source/header file with <F10>
+7. vimrc: Clean Up unused plug-in's
