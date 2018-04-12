@@ -87,6 +87,9 @@ set nocompatible
     " Simple compile/run binds
     Bundle 'xuhdev/SingleCompile'
 
+    " C/C++ code formatting using clang-format style
+    Bundle 'rhysd/vim-clang-format'
+
     " Snippets like textmate
     " REQUIREMENTS: vim-addon-mw-utils, tlib_vim, vim-snippets
     Bundle 'MarcWeber/vim-addon-mw-utils'
@@ -104,7 +107,7 @@ set nocompatible
 
     " C/C++ autocomplete
     " REUIREMENTS: clang compiler
-    "Bundle 'Rip-Rip/clang_complete'
+    " Bundle 'Rip-Rip/clang_complete'
 
     " Python autocomplete
     " REQUIREMENTS: python package 'jedi', also in virtenvs
@@ -395,6 +398,24 @@ set nocompatible
     " default is already set to 40 by plugin itself
     "let g:tagbar_width = 30
     set tags=tags;/
+    
+    " vim-clang-format
+    " Requirement clang-format (Clang extra pkg)
+    " link clang-format-3.9 --> clang-format
+    let g:clang_format#style_options = {
+            \ "AccessModifierOffset" : -4,
+            \ "AllowShortIfStatementsOnASingleLine" : "true",
+            \ "AlwaysBreakTemplateDeclarations" : "true",
+            \ "Standard" : "C++11"}
+
+    " map to <leader>cf in C++ code
+    autocmd FileType c,cpp,objc nnoremap <buffer><leader>cf :<C-u>ClangFormat<CR>
+    autocmd FileType c,cpp,objc vnoremap <buffer><leader>cf :ClangFormat<CR>
+    " if you install vim-operator-user
+    "autocmd FileType c,cpp,objc map <buffer><leader>x<Plug>(operator-clang-format)
+    " Toggle auto formatting:
+    nmap <leader>C :ClangFormatAutoToggle<CR>
+
 
     " Syntastic - This is largely up to your own usage, and override these
     "             changes if be needed. This is merely an exemplification.
