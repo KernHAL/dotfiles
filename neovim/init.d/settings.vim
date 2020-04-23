@@ -4,6 +4,24 @@
 " File              : settings.vim
 " Date              : 23.04.2020
 " Last Modified Date: 23.04.2020
+" File              : settings.vim
+" Date              : 23.04.2020
+" Last Modified Date: 23.04.2020
+" File              : settings.vim
+" Date              : 23.04.2020
+" Last Modified Date: 23.04.2020
+" File              : settings.vim
+" Date              : 23.04.2020
+" Last Modified Date: 23.04.2020
+" File              : settings.vim
+" Date              : 23.04.2020
+" Last Modified Date: 23.04.2020
+" File              : settings.vim
+" Date              : 23.04.2020
+" Last Modified Date: 23.04.2020
+" File              : settings.vim
+" Date              : 23.04.2020
+" Last Modified Date: 23.04.2020
 filetype on                           " required
 filetype plugin indent on
 
@@ -19,6 +37,7 @@ if (has('termguicolors'))
   set termguicolors
 endif
 
+" set background=light
 set backspace=indent,eol,start
 set backup
 set backupdir=~/.local/share/nvim/backup
@@ -27,7 +46,7 @@ set bomb
 set clipboard+=unnamedplus
 set completeopt=menuone,noselect,preview
 set conceallevel=0
-set cursorcolumn
+" set cursorcolumn
 set cursorline
 set directory=~/.local/share/nvim/swap
 set encoding=utf-8
