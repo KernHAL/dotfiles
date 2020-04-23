@@ -1,6 +1,3 @@
-" File              : plugins.vim
-" Date              : 23.04.2020
-" Last Modified Date: 23.04.2020
 :"" Vim-Plug {{{
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Specify a directory for plugins
@@ -13,7 +10,7 @@ Plug 'itchyny/lightline.vim'
 Plug 'jistr/vim-nerdtree-tabs'
 Plug 'majutsushi/tagbar'
 Plug 'mengelbrecht/lightline-bufferline'
-" Plug 'nathanaelkane/vim-indent-guides'
+Plug 'nathanaelkane/vim-indent-guides'
 Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'Yggdroot/indentLine'
@@ -26,14 +23,14 @@ Plug 'Chiel92/vim-autoformat'
 Plug 'VincentCordobes/vim-translate'
 Plug 'godlygeek/tabular'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }}
-" Plug 'jiangmiao/auto-pairs'
+Plug 'jiangmiao/auto-pairs'
 " Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 " Plug 'junegunn/fzf.vim'
 " Plug 'junegunn/vim-easy-align'
 " Plug 'junegunn/vim-peekaboo'
 " Plug 'mattn/gist-vim'
 " Plug 'mattn/webapi-vim'
-Plug 'mnabila/vim-header'
+"Plug 'mnabila/vim-header'
 " Plug 'neoclide/coc.nvim', {'do': { -> coc#util#install()}}
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
@@ -49,12 +46,13 @@ Plug 'plasticboy/vim-markdown'
 "Plug 'airblade/vim-gitgutter'
 
 " BGColor toggle between dark and light
-Bundle 'saghul/vim-colortoggle'
+Plug 'saghul/vim-colortoggle'
 
 "" Color Theme
 Plug 'morhetz/gruvbox'
 Plug 'ayu-theme/ayu-vim'
-Plug 'altercation/vim-colors-solarized'
+" Plug 'altercation/vim-colors-solarized'
+Plug 'iCyMind/NeoSolarized'
 
 "" Icon
 Plug 'ryanoasis/vim-devicons'
