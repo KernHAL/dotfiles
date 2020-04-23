@@ -91,8 +91,11 @@ noremap <C-\> :NERDTreeToggle<CR>
 " }}}
 
 "" Commentary {{{
-noremap <Leader>/ :Commentary<CR>
+noremap <Leader>" :Commentary<CR>
 " }}}
+
+""" Toggle background color-using vim-colortogggle plugin
+map <silent><F7> :ToggleBg<CR>
 
 "" Autoformat {{{
 nmap <Leader>f :Autoformat<CR>
