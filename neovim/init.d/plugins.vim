@@ -50,6 +50,7 @@ Plug 'saghul/vim-colortoggle'
 " Plug 'morhetz/gruvbox'
 " Plug 'ayu-theme/ayu-vim'
 Plug 'iCyMind/NeoSolarized'
+Plug 'jacoborus/tender.vim'
 
 "" Icon
 " Plug 'ryanoasis/vim-devicons'
