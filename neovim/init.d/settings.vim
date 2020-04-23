@@ -1,3 +1,9 @@
+" File              : settings.vim
+" Date              : 23.04.2020
+" Last Modified Date: 23.04.2020
+" File              : settings.vim
+" Date              : 23.04.2020
+" Last Modified Date: 23.04.2020
 filetype on                           " required
 filetype plugin indent on
 
@@ -91,6 +97,6 @@ set fileformat=unix
 set pyxversion=3
 set shiftwidth=2
 set softtabstop=2
-set tabstop=2
+set tabstop=4
 
 let g:python3_host_prog       = '/usr/bin/python3'
