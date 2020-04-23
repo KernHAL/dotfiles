@@ -1,6 +1,3 @@
-"" filetype {{{
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
 "" css {{{
 autocmd filetype scss,sass,css setlocal expandtab shiftwidth=2 softtabstop=2
 " }}}
@@ -42,6 +39,3 @@ autocmd FileType lua setlocal expandtab shiftwidth=2 softtabstop=2
 "" go {{{
 autocmd BufWritePre *.go :call CocAction('runCommand', 'editor.action.organizeImport')
 " }}}
-
-" }}}
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

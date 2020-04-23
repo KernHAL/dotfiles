@@ -1,12 +1,3 @@
-" File              : keybindings.vim
-" Date              : 23.04.2020
-" Last Modified Date: 23.04.2020
-" File              : keybindings.vim
-" Date              : 23.04.2020
-" Last Modified Date: 23.04.2020
-" File              : keybindings.vim
-" Date              : 23.04.2020
-" Last Modified Date: 23.04.2020
 "" Keybindings {{{
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "" Leader {{{

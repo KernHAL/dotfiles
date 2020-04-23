@@ -4,8 +4,13 @@ syntax on
 " set background=light
 " set background=dark
 " }}}
-let $NVIM_TUI_ENABLE_TRUE_COLOR=1
-set termguicolors
+if (has('nvim'))
+  let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+endif
+
+if (has('termguicolors'))
+  set termguicolors
+endif
 "" Highlight {{{
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "highlight ColorColumn guibg='#504945'
@@ -25,6 +30,7 @@ set termguicolors
 " let ayucolor="dark"   " for dark version of theme
 " colorscheme ayu
 " colorscheme gruvbox
+" let g:neosolarized_vertSplitBgTrans = 0
 colorscheme NeoSolarized
 " 
 "" IndentLine {{
@@ -33,3 +39,6 @@ colorscheme NeoSolarized
 " let g:indentLine_showFirstIndentLevel = 1
 " let g:indentLine_setColors = 0
 " }}
+"
+" Colorscheme for lightline
+let g:lightline = {'colorscheme': 'solarized',}
