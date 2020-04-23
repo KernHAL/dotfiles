@@ -1,24 +1,6 @@
 " File              : plugins.vim
 " Date              : 23.04.2020
 " Last Modified Date: 23.04.2020
-" File              : plugins.vim
-" Date              : 23.04.2020
-" Last Modified Date: 23.04.2020
-" File              : plugins.vim
-" Date              : 23.04.2020
-" Last Modified Date: 23.04.2020
-" File              : plugins.vim
-" Date              : 23.04.2020
-" Last Modified Date: 23.04.2020
-" File              : plugins.vim
-" Date              : 23.04.2020
-" Last Modified Date: 23.04.2020
-" File              : plugins.vim
-" Date              : 23.04.2020
-" Last Modified Date: 23.04.2020
-" File              : plugins.vim
-" Date              : 23.04.2020
-" Last Modified Date: 23.04.2020
 :"" Vim-Plug {{{
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Specify a directory for plugins
@@ -65,6 +47,9 @@ Plug 'plasticboy/vim-markdown'
 "" Git Support
 "Plug 'tpope/vim-fugitive'
 "Plug 'airblade/vim-gitgutter'
+
+" BGColor toggle between dark and light
+Bundle 'saghul/vim-colortoggle'
 
 "" Color Theme
 Plug 'morhetz/gruvbox'
