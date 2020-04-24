@@ -72,7 +72,6 @@ set smarttab                                    " tab to 0,4,8 etc.
 set splitbelow                                       " splits go below w/focus
 set splitright                                       " vsplits go right w/focus
 set t_Co=256
-set tabstop=4                                   " replace <TAB> w/4 spaces
 set title
 " set titlestring=%t%(\ %M%)%(\ (%{expand(\"%:~:.:h\")})%)%(\ %a%)
 set ttimeoutlen=50
