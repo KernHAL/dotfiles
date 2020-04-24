@@ -7,7 +7,6 @@ au BufRead /tmp/mutt-* set tw=72      " Configuring editors to work with mutt   
 
 
 set autochdir                                        " always use current dir.
-set autoindent                                       " auto indent text during editing
 set autoread                                         " refresh file if changed
 set backspace=indent,eol,start                       " smart backspace
 set backup                                           " backup current file
@@ -24,19 +23,18 @@ set conceallevel=0
 set cursorline
 set directory=~/.local/share/nvim/swap
 set encoding=utf-8
-set expandtab                                   " no real tabs
-set fileencoding=utf-8
+set expandtab                                        " no real tabs
 set fileencodings=utf-8
 """ Folding {{{
-    set foldcolumn=0                           " hide folding column
-    set foldmethod=indent                       " folds using indent
-    set foldnestmax=10                          " max 10 nested folds
-    set foldlevelstart=99                       " folds open by default
+    set foldcolumn=0                                 " hide folding column
+    set foldmethod=indent                            " folds using indent
+    set foldnestmax=10                               " max 10 nested folds
+    set foldlevelstart=99                            " folds open by default
 """ }}}
 "set foldlevel=0
 "set foldmethod=manual
 set formatoptions+=l
-set gdefault                                           " default s//g (global)
+set gdefault                                         " default s//g (global)
 set guioptions-=e
 set hidden
 set hlsearch
@@ -70,7 +68,7 @@ set showtabline=2
 set sidescrolloff=10
 set smartcase
 set smarttab                                    " tab to 0,4,8 etc.
-set softtabstop=4                               " "tab" feels like <tab>
+"set softtabstop=4                               " "tab" feels like <tab>
 set splitbelow                                       " splits go below w/focus
 set splitright                                       " vsplits go right w/focus
 set t_Co=256
@@ -88,14 +86,8 @@ set winblend=10
 set wrap
 set writebackup
 
-" augroup numbertoggle
-"   autocmd!
-"   autocmd BufEnter,FocusGained,InsertLeave * set relativenumber
-"   autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
-" augroup END
-
 " Global Indentation
-set autoindent
+set autoindent                                       " auto indent text during editing
 set expandtab
 set fileformat=unix
 set pyxversion=3
