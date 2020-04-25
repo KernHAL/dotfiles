@@ -1,4 +1,4 @@
-:"" Vim-Plug {{{
+"" Vim-Plug {{{
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Specify a directory for plugins
 " - Avoid using standard Vim directory names like 'plugin'
@@ -47,10 +47,12 @@ Plug 'plasticboy/vim-markdown'
 Plug 'saghul/vim-colortoggle'
 
 "" Color Theme
-" Plug 'morhetz/gruvbox'
-" Plug 'ayu-theme/ayu-vim'
-Plug 'iCyMind/NeoSolarized'
-Plug 'jacoborus/tender.vim'
+Plug 'morhetz/gruvbox'
+Plug 'rakr/vim-one'
+Plug 'rakr/vim-two-firewatch'
+Plug 'sainnhe/edge'
+" Plug 'lifepillar/vim-solarized8'
+" Plug 'iCyMind/NeoSolarized'
 
 "" Icon
 " Plug 'ryanoasis/vim-devicons'

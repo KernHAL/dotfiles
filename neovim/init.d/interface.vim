@@ -13,32 +13,30 @@ if (has('termguicolors'))
 endif
 "" Highlight {{{
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"highlight ColorColumn guibg='#504945'
-"highlight GruvboxGreenSign guibg='#282828' guifg='#b8bb26'
-"highlight GruvboxRedSign guibg='#282828' guifg='#fb4934'
-"highlight GruvboxAquaSign guibg='#282828' guifg='#8ec07c'
-"highlight ALEErrorSign guibg='#e16f7e' guifg='#000000'
-"highlight ALEWarningSign guibg='#fdc35f' guifg='#000000'
-"highlight ALEInfoSign guibg='#8ca9bf' guifg='#000000'
-"highlight clear SignColumn
-"highlight! link NERDTreeFlags NERDTreeDir
+" highlight ColorColumn guibg='#504945'
+" highlight GruvboxGreenSign guibg='#282828' guifg='#b8bb26'
+" highlight GruvboxRedSign guibg='#282828' guifg='#fb4934'
+" highlight GruvboxAquaSign guibg='#282828' guifg='#8ec07c'
+" highlight ALEErrorSign guibg='#e16f7e' guifg='#000000'
+" highlight ALEWarningSign guibg='#fdc35f' guifg='#000000'
+" highlight ALEInfoSign guibg='#8ca9bf' guifg='#000000'
+" highlight clear SignColumn
+" highlight! link NERDTreeFlags NERDTreeDir
 " }}}
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"...
-" let ayucolor="light"  " for light version of theme
-" let ayucolor="mirage" " for mirage version of theme
-" let ayucolor="dark"   " for dark version of theme
-" colorscheme ayu
-" colorscheme gruvbox
+
+let g:gruvbox_italic = 1         "love italics in comments.
 " let g:neosolarized_vertSplitBgTrans = 0
-colorscheme NeoSolarized
-" 
-"" IndentLine {{
-" let g:indentLine_char = ''
-" let g:indentLine_first_char = ''
-" let g:indentLine_showFirstIndentLevel = 1
-" let g:indentLine_setColors = 0
-" }}
-"
+" let g:one_allow_italics = 1 " I love italic for comments
+" let g:two_firewatch_italics = 1 " I love italic for comments
+" colorscheme edge
+colorscheme gruvbox
+" colorscheme one
+" colorscheme two-firewatch
+
 " Colorscheme for lightline
-let g:lightline = {'colorscheme': 'solarized',}
+" =====================================================================
+" let g:lightline = {'colorscheme': 'edge'}
+let g:lightline = {'colorscheme': 'gruvbox'}
+" let g:lightline = {'colorscheme': 'one'}
+" let g:lightline = {'colorscheme': 'twofirewatch'}
