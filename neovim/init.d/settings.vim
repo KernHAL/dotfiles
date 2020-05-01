@@ -22,7 +22,6 @@ set conceallevel=0
 set cursorline
 set directory=~/.local/share/nvim/swap
 set encoding=utf-8
-set expandtab                                        " no real tabs
 set fileencodings=utf-8
 """ Folding {{{
     set foldcolumn=0                                 " hide folding column
@@ -91,6 +90,6 @@ set fileformat=unix
 set pyxversion=3
 set shiftwidth=2
 set softtabstop=2
-set tabstop=4
+set tabstop=2
 
 let g:python3_host_prog       = '/usr/bin/python3'
