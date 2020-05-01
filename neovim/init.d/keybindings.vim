@@ -1,5 +1,4 @@
 "" Keybindings {{{
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "" Leader {{{
 let mapleader=','
 " }}}
@@ -169,8 +168,8 @@ noremap <leader>h :AddHeader<cr>
 " }}}
 
 "" EasyAlign {{{
-  vmap <leader>a :EasyAlign<cr>
-  nmap <leader>a :EasyAlign<cr>
+vmap <leader>ea :EasyAlign<cr>
+nmap <leader>ea :EasyAlign<cr>
 " }}}
 
 "" vim-translate {{{
@@ -188,5 +187,3 @@ nmap <leader>ev :NERDTree ~/.config/nvim<CR>
 " }}}
 
 " }}}
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
