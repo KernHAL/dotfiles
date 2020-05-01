@@ -24,7 +24,7 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }}
 Plug 'jiangmiao/auto-pairs'
 " Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 " Plug 'junegunn/fzf.vim'
-" Plug 'junegunn/vim-easy-align'
+Plug 'junegunn/vim-easy-align'
 " Plug 'junegunn/vim-peekaboo'
 " Plug 'mattn/gist-vim'
 " Plug 'mattn/webapi-vim'
@@ -49,7 +49,6 @@ Plug 'saghul/vim-colortoggle'
 "" Color Theme
 Plug 'morhetz/gruvbox'
 Plug 'rakr/vim-one'
-Plug 'rakr/vim-two-firewatch'
 Plug 'sainnhe/edge'
 " Plug 'lifepillar/vim-solarized8'
 " Plug 'iCyMind/NeoSolarized'

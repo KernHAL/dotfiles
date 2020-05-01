@@ -169,8 +169,8 @@ noremap <leader>h :AddHeader<cr>
 " }}}
 
 "" EasyAlign {{{
-"vmap <leader>a :EasyAlign<cr>
-"nmap <leader>a :EasyAlign<cr>
+  vmap <leader>a :EasyAlign<cr>
+  nmap <leader>a :EasyAlign<cr>
 " }}}
 
 "" vim-translate {{{

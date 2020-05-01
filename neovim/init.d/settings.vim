@@ -14,7 +14,6 @@ set backupdir=~/.local/share/nvim/backup
 set backupext=~                                      " append ~ to backups
 set binary
 " set bomb                                             " puts Byte Order Mark (BOM) at the start of unicode files
-
 set clipboard+=unnamedplus
 set completeopt=menuone,noselect,preview
 set confirm                                          " confirm changed files
