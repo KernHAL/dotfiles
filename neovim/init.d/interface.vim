@@ -31,5 +31,5 @@
 
 " Colorscheme for lightline 
   " let g:lightline = { 'colorscheme': 'edge'}
-let g: lightline = { 'colorscheme': 'gruvbox'}
+let g:lightline = { 'colorscheme': 'gruvbox'}
 " let g:lightline = { 'colorscheme': 'one'}
