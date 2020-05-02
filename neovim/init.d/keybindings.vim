@@ -61,6 +61,7 @@ nmap <C-A-h> <C-w>t<C-w>H
 
 "" Terminal-mode {{{
 tnoremap <Esc> <C-\><C-n>
+nnoremap <leader>te :belowright 10sp term://$SHELL<cr>i
 " }}}
 
 "" NERDTree {{{
