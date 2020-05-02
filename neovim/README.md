@@ -13,11 +13,10 @@ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 $ nvim +PlugInstall
 ```
 
-- Be sure that
+- Be sure that the following directories exist:
      - /home/ieser/.local/share/nvim/backup
      - /home/ieser/.local/share/nvim/plugged
      - /home/ieser/.local/share/nvim/shada
      - /home/ieser/.local/share/nvim/site
      - /home/ieser/.local/share/nvim/swap
      - /home/ieser/.local/share/nvim/undo
-         directories exist.
