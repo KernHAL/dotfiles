@@ -24,4 +24,4 @@ $ nvim +PlugInstall
 
 ##TODO:
 - Add intellisense engine to Neovim ('neoclide/coc.nvim')
-- ~~Add a mini-split terminal window to the ui
+- ~~Add a mini-split terminal window to the ui~~
