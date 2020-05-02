@@ -1,16 +1,17 @@
-Many ideas borrowed from [spf13](https://github.com/spf$$13/spf13-vim/) , [timss](https://github.com/timss) , and [mnabila](https://github.com/mnabila/nvimrc/).
-
+Many ideas borrowed from [spf13](https://github.com/spf$$13/spf13-vim/), [timss](https://github.com/timss), and [mnabila](https://github.com/mnabila/nvimrc/).
 
 ## Instructions for Installing Configuration 
-``````````
-```sh
+
+```
 $ git clone https://github.com/nabil48/nvimrc ~/.config/nvim
 ```
-```sh
+
+```
 $ curl -flo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
 https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
-```sh
+
+```
 $ nvim +PlugInstall
 ```
 
@@ -25,3 +26,4 @@ $ nvim +PlugInstall
 ### TODO:
 - Add intellisense engine to Neovim ('neoclide/coc.nvim')
 - ~~Add a mini-split terminal window to the ui~~
+- Add 'junegunn/limelight' plug to the config
