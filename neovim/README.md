@@ -3,14 +3,15 @@ Many ideas borrowed from [spf13](https://github.com/spf$$13/spf13-vim/) and [mna
 
 
 ## Instructions for Installing Configuration 
-```
+``````````
+```sh
 $ git clone https://github.com/nabil48/nvimrc ~/.config/nvim
 ```
-```
-curl -flo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
+```sh
+$ curl -flo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
 https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
-```
+```sh
 $ nvim +PlugInstall
 ```
 
