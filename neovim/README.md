@@ -1,4 +1,7 @@
 Many ideas borrowed from [spf13](https://github.com/spf$$13/spf13-vim/) and [mnabila](https://github.com/mnabila/nvimrc/).
+
+
+
 ### Instructions for Installing Configuration 
 ```
 $ git clone https://github.com/nabil48/nvimrc ~/.config/nvim
@@ -21,3 +24,4 @@ $ nvim +PlugInstall
 
 ##TODO:
 - Add intellisense engine to Neovim ('neoclide/coc.nvim')
+- ~~Add a mini-split terminal window to the ui
