@@ -1,5 +1,4 @@
-Many ideas borrowed from [spf13](https://github.com/spf$$13/spf13-vim/) and [mnabila](https://github.com/mnabila/nvimrc/).
-
+Many ideas borrowed from [spf13](https://github.com/spf$$13/spf13-vim/) , [timss](https://github.com/timss) , and [mnabila](https://github.com/mnabila/nvimrc/).
 
 
 ## Instructions for Installing Configuration 
