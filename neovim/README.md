@@ -22,6 +22,6 @@ $ nvim +PlugInstall
      - /home/ieser/.local/share/nvim/swap
      - /home/ieser/.local/share/nvim/undo
 
-##TODO:##
+###TODO:
 - Add intellisense engine to Neovim ('neoclide/coc.nvim')
 - ~~Add a mini-split terminal window to the ui~~
