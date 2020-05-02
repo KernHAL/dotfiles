@@ -51,7 +51,8 @@ set nocompatible
 set noerrorbells
 set nostartofline
 set novisualbell
-set number
+" set number                                      " this is noncompatible with
+" set relativenumber
 set pumblend=10
 set regexpengine=1
 set relativenumber
