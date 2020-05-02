@@ -1,12 +1,5 @@
 "" Vim-Plug {{{
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Specify a directory for plugins
-" - Avoid using standard Vim directory names like 'plugin'
-if empty(glob('~/.local/share/nvim/site/autoload/plug.vim'))
-  silent !curl -fLo ~/.local/share/nvim/site/autoload/plug.vim  --create-dirs
-    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
-endif
 
 call plug#begin('~/.local/share/nvim/plugged')
 "" UI plugin
@@ -25,7 +18,7 @@ Plug 'Yggdroot/indentLine'
 Plug 'Chiel92/vim-autoformat'
 Plug 'VincentCordobes/vim-translate'
 Plug 'godlygeek/tabular'
-Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }}
+" Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }}
 Plug 'jiangmiao/auto-pairs'
 " Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 " Plug 'junegunn/fzf.vim'
@@ -41,7 +34,7 @@ Plug 'tpope/vim-unimpaired'
 
 "" Language pack
 Plug 'honza/vim-snippets'
-Plug 'plasticboy/vim-markdown'
+" Plug 'plasticboy/vim-markdown'
 " Plug 'sheerun/vim-polyglot'
 
 "" Git Support
